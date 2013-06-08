@@ -92,6 +92,25 @@ You will have to start and stop the MagLev server using
 
 The <b>ProTip</b> above for RVM still applies.
 
+=== Install with ruby-install/chruby
+
+{ruby-install}[https://github.com/postmodern/ruby-install#readme] installs the latest stable MagLev if no version arguement is given
+
+  ruby-install maglev
+  
+Other versions can be installed by specifying the version
+
+  ruby-install maglev 1.0
+  
+{chruby}[https://github.com/postmodern/chruby#readme] can be used to easily select the current Ruby, whether installed with ruby-install or other tools.
+
+You will have to start and stop the MagLev server using
+
+  maglev start
+  maglev stop
+
+The <b>ProTip</b> above for RVM still applies.
+
 === Install from GitHub
 
 This version is best for MagLev contributors and for developers who want to
